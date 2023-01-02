@@ -26,6 +26,7 @@ declare module "react-native-really-awesome-button" {
     borderTopRightRadius?: number;
     borderLeftBottomRadius?: number;
     borderWidth?: number;
+    children?: React.ReactNode;
     ExtraContent?: React.ReactNode;
     disabled?: boolean;
     height?: number;
